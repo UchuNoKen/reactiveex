@@ -31,7 +31,8 @@ function printAllNames() {
 // - to project one array to another, we apply a projections function to each item in the array,
 //   and collect the results in a new array
 
-// Ex. 3
+// Ex. 3 -----------------------------------------------------------------------------
+
 //  - project an array of videos into an array of {id, title} pairs using forEach()
 
 function project() {
@@ -83,7 +84,11 @@ function project() {
   return videoAndTitlePairs;
 }
 
-// Ex. 4
+// Array projections share the following:
+// - traverse the source array
+// - add each item's projected value to a new array
+
+// Ex. 4 ------------------------------------------------------------------------------------
 //  - implement map function
 //  - add map() to the Array type
 
